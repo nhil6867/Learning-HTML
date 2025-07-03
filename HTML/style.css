@@ -1,0 +1,51 @@
+#para1{
+
+    color: red;
+    font-size: large;
+    text-align: center;
+}
+.para2{
+color: blue;
+border: 5px aqua;
+text-align: center;
+
+}
+.para3{
+    padding: 10px 20px;
+    width: 150px;
+border: 2px solid red;
+background-color: black;
+color: aliceblue;    
+border-radius: 15px;
+
+}
+.para4{
+    border: 1px black;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+background-color: bisque;
+text-align: center;
+border-radius: 50%
+padding: 150px 150px;
+
+}
+.a{
+color: forestgreen;
+
+}
+.b{
+    color: red;
+}
+.c{
+    color: blue;
+}
+.d{
+    color: yellow;
+}
+.e{
+    color: brown;
+}
+.f{
+    color: pink;
+}
