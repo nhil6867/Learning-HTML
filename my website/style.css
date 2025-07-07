@@ -1,0 +1,157 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+    background-color: rgba(0,0,0,0.5), rgba(0,0,0,0.5), rgba(0,0,0,0.5);
+}
+body{
+    background-color: rgba(0, 0, 0, 0.567);
+}
+header{
+background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pexels-pixabay-259955.jpg);
+height: 100vh;
+background-size: cover;
+background-position: center;
+min-height: 100px;
+}
+#navbar{
+    height: 130px;
+    width: 100%;
+    background: rgba(0,0,0,0.4);
+    backdrop-filter: blur(3px);
+}
+.logo{
+    width: 140px;
+    height: auto;
+    padding: 20px 100px;
+    float: inline-start;
+    margin-left: 20px;
+}
+.first ul{
+    float: inline-start;
+    list-style-type: none;
+    margin-top: 50px;
+    min-height: 400px;
+    margin-right: 60px;
+    margin-left: 70px;
+    font-size: 25px;
+    border: 2px #000;
+
+}
+.first ul li{
+    display: inline-flex;
+}
+.first ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 5px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}
+.first ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+.first ul li.home a{
+background-color: #fff;
+    color: #000;
+}
+.first ul li a i{
+    width: 50px;
+    height: auto;
+
+}
+.first{
+    margin: auto;
+
+}
+.title{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title h1{
+    color: chocolate;
+    font-size: 95px;
+    font: bold;
+    border: #000;
+    text-shadow: grey;
+}
+.button{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+     transition: 0.5 ease;
+     margin: 20px 20px;
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 35px;
+    display: inline-flex;
+    text-decoration: none;
+    margin: 30px;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+.second ul{
+     float: inline-end;
+     list-style-type: none;
+     margin-top: 40px;
+     min-height: 400px;
+     margin-right: 60px;
+     margin-left: 80px;
+     font-size: 35px;
+     border: 2px #000;
+}
+.second ul li{
+      display: inline-flex;
+      text-decoration: none;
+      color: #fff;
+      padding: 5px 5px;
+      border: 1px solid transparent;
+}
+.second ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 5px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+}    
+.call{
+    width: 150px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 50px;
+}
+.call:hover{
+    background-color: chocolate;
+}
+.sec-one{
+   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pexels-thought-catalog-317580-904616.jpg);
+   margin-top: 250px;
+   height: 140vh;
+   background-size: cover;
+   background-position: center;
+   min-height: 100px;   
+   backdrop-filter: blur(3px);
+}
+.heading{
+     position: absolute;
+     top: 10%;
+     left: 50%;
+     transform: translate(-50%, -50%);   
+}
+.heading h1{
+     color: #fff;
+     font-size: 95px;
+     font: bold;
+     border: #000;
+}
