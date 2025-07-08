@@ -6,6 +6,7 @@
 }
 body{
     background-color: rgba(0, 0, 0, 0.567);
+    min-height: 100%;
 }
 header{
 background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(pexels-pixabay-259955.jpg);
