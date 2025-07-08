@@ -15,17 +15,17 @@ background-position: center;
 min-height: 100px;
 }
 #navbar{
-    height: 130px;
+    height: 110px;
     width: 100%;
     background: rgba(0,0,0,0.4);
     backdrop-filter: blur(3px);
 }
 .logo{
-    width: 140px;
+    width: 100px;
     height: auto;
-    padding: 20px 100px;
+    padding: 20px 60px;
     float: inline-start;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 .first ul{
     float: inline-start;
@@ -155,3 +155,4 @@ background-color: #fff;
      font: bold;
      border: #000;
 }
+@media (max-width:430px)
